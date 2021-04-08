@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coin-game</title>
+</head>
+
+<body>
+
+
+    <h1>Total Coins: <span id="total-coins">0</span></h1>
+    <h2>Available for spending: <span id="coins-available">0</span></h2>
+    <h2>Coins per second: <span id="coins-per-second">0</span></h2>
+    <button id="coin-clicker-btn">Click me!</button>
+    <h3>Upgrades:</h3>
+
+    <div>
+        1x upgrades:
+        <span id="single-upgrade-count">0</span>, current price for a single upgrade:
+        <span id="single-upgrade-price">10</span>
+    </div>
+
+    <div>
+        10x upgrades:
+        <span id="ten-upgrades-count">0</span>, current price for 10 upgrades:
+        <span id="ten-upgrades-price">90</span>
+    </div>
+    <div>
+        <button id="buy-single-upgrade-btn" disabled>Buy 1x upgrade</button>
+        <button id="buy-10-upgrades-btn" disabled>Buy 10x upgrades</button>
+    </div>
+
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
